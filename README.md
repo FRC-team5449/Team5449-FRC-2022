@@ -1,10 +1,10 @@
 # FRC team 5449's code for 2022 _Rapid React_
 
-Presented by our talented youth mentor, alumni, and team member from seanson 2020 to 2023 Zhang Jialin!
+Presented by our talented youth mentor, alumni, and team member from season 2020 to 2023 Zhang Jialin!
 
 ## [RobotContainer.java](https://github.com/FRC-team5449/prototype2022in23_final_version/blob/main/src/main/java/frc/robot/RobotContainer.java)
 
-The class that plays a role of main class in the whole program, and all the commands are alligned with thier corresponding subsystems in this class. The joystick except swerve drive also maps with commands, which is achieved by Trigger.java, based on the control of Robot's state.
+The class that plays a role of main class in the whole program, and all the commands are aligned with their corresponding subsystems in this class. The joystick except swerve drive also maps with commands, which is achieved by Trigger.java, based on the control of Robot's state.
 
 ## [Autos.java](https://github.com/FRC-team5449/prototype2022in23_final_version/blob/main/src/main/java/frc/robot/commands/Autos.java)
 
