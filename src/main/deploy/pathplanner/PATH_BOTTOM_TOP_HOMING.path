@@ -1,0 +1,188 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 7.715205899161798,
+        "y": 1.906134906019812
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.752948787147575,
+        "y": 1.4325033337566675
+      },
+      "holonomicAngle": -89.30939970775943,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "startUpLift",
+          "armDown"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 7.664008921767843,
+        "y": 0.6397836233172467
+      },
+      "prevControl": {
+        "x": 7.732077492381604,
+        "y": 0.6452201874252473
+      },
+      "nextControl": {
+        "x": 6.791933896367793,
+        "y": 0.5701319215138432
+      },
+      "holonomicAngle": -90.69713934807632,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 4.517180753111506,
+        "y": 1.524003048006096
+      },
+      "prevControl": {
+        "x": 4.777690024130048,
+        "y": 0.665382112014224
+      },
+      "nextControl": {
+        "x": 4.502799380223412,
+        "y": 1.571403080265004
+      },
+      "holonomicAngle": 32.58028414931357,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "stopUpLift",
+          "shoot"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 5.496208135273414,
+        "y": 2.189665807903044
+      },
+      "prevControl": {
+        "x": 5.586578731238161,
+        "y": 2.182922896439886
+      },
+      "nextControl": {
+        "x": 5.405837539308667,
+        "y": 2.1964087193662025
+      },
+      "holonomicAngle": 34.824489156956766,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [
+          "stopUpLift",
+          "shoot"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "before",
+        "waitTime": 0.1
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 1.5283573424289707,
+        "y": 1.513661598751768
+      },
+      "prevControl": {
+        "x": 1.5285256824771,
+        "y": 1.3051036277709633
+      },
+      "nextControl": {
+        "x": 1.5254658187887806,
+        "y": 5.095995750027214
+      },
+      "holonomicAngle": -136.39718102729648,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [
+          "upLiftCmd"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 5.510903878950615,
+        "y": 5.951776189266664
+      },
+      "prevControl": {
+        "x": 1.1903552378533324,
+        "y": 8.523531332776951
+      },
+      "nextControl": null,
+      "holonomicAngle": -41.00908690157017,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "stopUpLift",
+          "shoot"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "before",
+        "waitTime": 0.1
+      }
+    }
+  ],
+  "maxVelocity": null,
+  "maxAcceleration": 3.0,
+  "isReversed": null,
+  "markers": [
+    {
+      "position": 1.9133522727272732,
+      "names": [
+        "startUpLift",
+        "startShoot"
+      ]
+    },
+    {
+      "position": 3.6246448863636416,
+      "names": [
+        "startUpLift",
+        "stopShoot"
+      ]
+    },
+    {
+      "position": 4.863636363636351,
+      "names": [
+        "startUpLift",
+        "startShoot"
+      ]
+    }
+  ]
+}
